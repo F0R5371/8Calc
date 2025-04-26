@@ -1,3 +1,3 @@
-# RRF (Rational Root Finder)
+# 8Calc
 
-A little rational root calculator I made for fun.
+A number of useful math functionality in one little repository.
