@@ -1,5 +1,20 @@
 import math
 
+# Probability operators
+def and_prob(a, b):
+    return a * b
+
+def or_prob(a, b):
+    return a + b - and_prob(a, b)
+
+# Conditional prob
+def given_prob(a, b):
+    return and_prob(a, b) / b
+
+def bayes_prob(b, a):
+    return (b * and_prob(a, b)) / a
+
+# For other functions
 def factorial(num):
     fac = 1
     for i in range(num, 0, -1):
